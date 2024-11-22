@@ -33,6 +33,27 @@
 
 ![image](./img/command.png)
 
+
+
+
+### e,然后在浏览器输入192.168.150.1 就可以出现web界面了默认账号密码 admin/admin
+
+![image](./img/web.png)
+
+
+
+
+
 ---
 
 # 二，有可能遇到的问题
+
+## 1，找不到链接库
+
+比如提示找不到libbm开头的链接库 有可能是start.sh脚本的目录不对，找到  export LD_LIBRARY_PATH=/data/bm-app/source/lib/:/opt/sophon/libsophon-0.5.0/lib/  修改
+libsophon-0.5.0的版本号，如果不知道版本号可以到指定的目录下进行查看 /opt/sophon/
+
+当然也有可能是 libbmcv.so 但是找不到 libbmcv.so.0  这个时候需要 sudo ln -s libbmcv.so  libbmcv.so.0 差什么补什么（因为有的盒子版本不同导致没有这种类似的链接库，需要手动链接）
+
+
+## 2，重启设备之后自启动脚本不执行，看看是不是没有给脚本赋予权限
