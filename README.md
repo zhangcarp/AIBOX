@@ -8,6 +8,12 @@
 
 算法软件包（从Releases处下载指定版本），AI边缘计算盒子（SE5 SE7），网线，ssh工具和ftp工具（win10自带的工具也行，导出KEY文件会麻烦一点）
 
+
+百度云下载地址
+
+链接：https://pan.baidu.com/s/1YKWTBzMTBGKYtV4JI8S0OQ?pwd=jdi1 
+提取码：jdi1
+
 ## 2，安装软件包
 
 
